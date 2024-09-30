@@ -2,18 +2,21 @@ This repository contains all the scripts and external data files necessary to re
 
 The repository contains:
 •	Drop-Seq_matrix_allgenes - A zip file containing all Drop-Seq gene expression matrices.
-•	HighSingleA_matrix_allgenes - A zip file containing the HIVE gene expression matrix for the sample “High Single A”.
-•	LowManyA_matrix_allgenes - A zip file containing the HIVE gene expression matrix for the sample “Low Many A”.
-•	HighSingleB_matrix_allgenes - A zip file containing the HIVE gene expression matrix for the sample “High Single B”.
-•	LowManyB_matrix_allgenes - A zip file containing the HIVE gene expression matrix for the sample “Low Many B”.
+•	3D7HighSingleA_HIVE_100 - A zip file containing the HIVE gene expression matrix for the 3D7 sample “High Single A”.
+•	3D7HighSingleB_HIVE_100 - A zip file containing the HIVE gene expression matrix for the 3D7 sample “High Single B”.
+•	3D7LowManyA_HIVE_100 - A zip file containing the HIVE gene expression matrix for the 3D7 sample “Low Many A”.
+•	3D7LowManyB_HIVE_100 - A zip file containing the HIVE gene expression matrix for the 3D7 sample “Low Many B”.
+•	IT4HighSingle_HIVE_100 - A zip file containing the HIVE gene expression matrix for the IT4 sample “High Single”.
+•	IT4LowMany_HIVE_100 - A zip file containing the HIVE gene expression matrix for the IT4 sample “Low Many”.
 
-•	Top50cells – An Excel file with the Drop-Seq Top50 cells in terms of UMI count used for the graphs in Figure 4.
-•	HighSingleA_HIVE_Top100 – A csv file with the HIVE Top 100 cells in terms of UMI count for “High Single A” sample, used for the graphs in Figure 6A,C.
-•	LowManyA_HIVE_Top100 – A csv file with the HIVE Top 100 cells in terms of UMI count for “Low Many A” sample, used for the graphs in Figure 6B,D.
+•	Top50cellsRelative – An Excel file with the Drop-Seq Top50 cells in terms of UMI count used for the graphs in Figure 4.
+•	HIVETop100Relative – An Excel file with the HIVE Top100 cells in terms of UMI count used for the graphs in Figure 6.
 
-•	HiveFigures.R – R code for all the analysis in Figure 5 and Supplementary Figure 2.
+•	HiveFigures.R – R code for all the analysis in Figure 5, Supplementary Figure 4 and Supplementary Figure 7.
 •	Figure4_6.R – R code for the analysis in Figure 4 and 6.
 
 Supplementary files needed for the codes to work:
-•	multicopy.txt – List of all clonally-variant genes used for the analysis in Figure 5E. The list is based on Cortes and Deitsch, 2017 (PMID: 28320828).
+•	Multicopy3D7.txt – List of all clonally-variant genes in 3D7 strain, used for the analysis in Figure 5F and Supplementary Table 6. The list is based on Cortes and Deitsch, 2017 (PMID: 28320828).
+•	MulticopyIT4.txt – List of all clonally-variant genes in IT4 strain, used for the analysis in Supplementary Figure 4D, E and Supplementary Table 6.
+
 
