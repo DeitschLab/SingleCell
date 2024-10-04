@@ -14,9 +14,12 @@ The repository contains:
 
 •	HiveFigures.R – R code for all the analysis in Figure 5, Supplementary Figure 4 and Supplementary Figure 7.
 •	Figure4_6.R – R code for the analysis in Figure 4 and 6.
+•	Figure5C.R – R code for the analysis in Figure 5C.
 
 Supplementary files needed for the codes to work:
 •	Multicopy3D7.txt – List of all clonally-variant genes in 3D7 strain, used for the analysis in Figure 5F and Supplementary Table 6. The list is based on Cortes and Deitsch, 2017 (PMID: 28320828).
 •	MulticopyIT4.txt – List of all clonally-variant genes in IT4 strain, used for the analysis in Supplementary Figure 4D, E and Supplementary Table 6.
-
+•	Bozdech.csv – Timecourse data from Bozdech et al. 2003 (PMID: 12929205), used for the analysis in Figure5C.
+•	GeneByLocusTag.csv – Converts GeneIDs from previous nomenclature to updated nomenclature, used for the analysis in Figure5C.
+•	Collapsed_Sums.csv – Sums of all HIVE UMI for the 3D7 samples, used for the analysis in Figure5C.
 
