@@ -3,7 +3,8 @@ library(ggrepel)
 
 setwd("/home/joe/raid5/DropSeqArchive/Joe/Blant-Altman")
 
-Data <- read.csv("varProportion.csv", header = TRUE)
+#Load in the proportion file (3D7_Props.csv or IT4_Props.csv)
+Data <- read.csv("varProps.csv", header = TRUE)
 row.names(Data) <- Data$var
 
 #select the comparison
